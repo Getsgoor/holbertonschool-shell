@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM.00 | cut -d. -f1,2
+printf "%.2f" $NUM
