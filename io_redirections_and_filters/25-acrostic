@@ -1,3 +1,2 @@
 #!/bin/bash
-
 cut -c1 accr | tr -d  '\n' | fmt
